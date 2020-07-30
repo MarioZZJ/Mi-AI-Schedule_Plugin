@@ -1,0 +1,58 @@
+{
+  "manifest_version": 2,
+  "name": "AISchedule DevTools",
+  "version": "0.1.3",
+  "description": "MIAI-FE AISchedule DevTools",
+  "icons": {
+    "16": "img/logo.png",
+    "48": "img/logo.png",
+    "128": "img/logo.png"
+  },
+  "background": {
+    "scripts": [
+      "js/background.js"
+    ]
+  },
+  "browser_action": {
+    "default_popup": "html/popup.html",
+    "default_icon": {
+      "16": "img/logo.png",
+      "32": "img/logo.png",
+      "48": "img/logo.png",
+      "128": "img/logo.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "js/scheduleHtmlProvider.js",
+        "js/scheduleHtmlParser.js",
+        "js/testParser.js",
+        "js/message.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": [
+    "contextMenus",
+    "cookies",
+    "tabs",
+    "notifications",
+    "webRequest",
+    "webRequestBlocking",
+    "storage",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "web_accessible_resources": [
+    "js/scheduleHtmlProvider.js",
+    "js/scheduleHtmlParser.js",
+    "js/url.js"
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval' https://cdn.jsdelivr.net; object-src 'self'",
+  "homepage_url": "https://www.baidu.com",
+  "devtools_page": "html/devtools.html"
+}
