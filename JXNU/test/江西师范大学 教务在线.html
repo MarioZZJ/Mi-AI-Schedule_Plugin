@@ -1,0 +1,531 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0098)https://jwc.jxnu.edu.cn/User/default.aspx?&code=111&&uctl=MyControl\xfz_kcb.ascx&MyAction=Personal -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>江西师范大学 教务在线</title>
+		
+		<script src="./江西师范大学 教务在线_files/jquery-142min.js.下载"></script>
+		<script src="./江西师范大学 教务在线_files/common.js.下载"></script>
+		<link rel="stylesheet" type="text/css" href="./江西师范大学 教务在线_files/newcss.css">
+        <link href="./江西师范大学 教务在线_files/pro_drop.css" rel="stylesheet" type="text/css">
+        <script src="./江西师范大学 教务在线_files/stuHover.js.下载" type="text/javascript"></script>
+	<script src="./jquery.min.js" type="text/javascript"></script>
+
+<script>
+$("document").ready(function loadData() {
+//判断高度
+if ($("#contentLeft").height() > $("#contentHolder").height()) {
+    $("#contentHolder").height($("#contentLeft").height())
+}
+else {
+    $("#contentLeft").height($("#contentHolder").height())
+}
+
+var currentIndex = 1;
+var arrayContent = "banner1.jpg|banner2.jpg|banner3.jpg|banner4.jpg";
+var arrayC=arrayContent.split("|");
+//定时切换
+setInterval(function() {	
+    $("#bannerimg").fadeOut("slow");	
+    currentIndex++;
+    if (currentIndex > 3) {
+        currentIndex = 0;
+    }
+	$("#bannerimg").attr("src","../images/new/" + arrayC[currentIndex]); 
+
+    $("#bannerimg").fadeIn("slow");
+}, 8000); 
+} 
+
+);   
+
+function OpenWindow(UserControl)
+{
+	var MyWidth=window.screen.width;		//600;
+	var MyHeight=window.screen.height-65;	//480;
+	window.open('../MyControl/All_Display.aspx?UserControl=' + UserControl  ,'教务办公系统','width=' + MyWidth + ',height=' + MyHeight + ',scrollbars=yes,left=0,top=0')
+}
+function OpenURL(URL)
+{
+	var MyWidth=window.screen.width;		//600;
+	var MyHeight=window.screen.height-70;	//480;
+	window.open(URL,'江西师范大学·教务在线·教工之家','width=' + MyWidth + ',height=' + MyHeight + ',scrollbars=yes,left=0,top=0');
+}
+			</script>
+	</head>
+	<body>
+		<form name="_ctl0" method="post" action="https://jwc.jxnu.edu.cn/User/default.aspx?&amp;&amp;code=111&amp;uctl=MyControl%5cxfz_kcb.ascx&amp;MyAction=Personal" id="_ctl0">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNzIzMTk0NzYzD2QWAgIBD2QWCgIBDw8WAh4EVGV4dAUgMjAyMOW5tDfmnIgzMOaXpSDmmJ/mnJ/lm5smbmJzcDtkZAIFDw8WAh8ABRjlvZPliY3kvY3nva7vvJror77nqIvooahkZAIHDw8WAh8ABS8gICDmrKLov47mgqjvvIwoMjAxODI1OTAyMDQxLFN0dWRlbnQpIOm7hOWuh+a0qmRkAgoPZBYEAgEPDxYCHghJbWFnZVVybAVFLi4vTXlDb250cm9sL0FsbF9QaG90b1Nob3cuYXNweD9Vc2VyTnVtPTIwMTgyNTkwMjA0MSZVc2VyVHlwZT1TdHVkZW50ZGQCAw8WAh8ABcklPGRpdiBpZD0nbWVudVBhcmVudF8wJyBjbGFzcz0nbWVudVBhcmVudCcgb25jbGljaz0nbWVudUdyb3VwU3dpdGNoKDApOyc+5oiR55qE5L+h5oGvPC9kaXY+PGRpdiBpZD0nbWVudUdyb3VwMCcgY2xhc3M9J21lbnVHcm91cCc+PERpdiBjbGFzcz0nbWVudUl0ZW1PbicgdGl0bGU9J+ivvueoi+ihqCc+PGEgaHJlZj0iZGVmYXVsdC5hc3B4PyZjb2RlPTExMSYmdWN0bD1NeUNvbnRyb2xceGZ6X2tjYi5hc2N4Jk15QWN0aW9uPVBlcnNvbmFsIiB0YXJnZXQ9J3BhcmVudCc+6K++56iL6KGoPC9hPjwvZGl2PjxEaXYgY2xhc3M9J21lbnVJdGVtJyB0aXRsZT0n5Z+65pys5L+h5oGvJz48YSBocmVmPSIuLlxNeUNvbnRyb2xcU3R1ZGVudF9JbmZvckNoZWNrLmFzcHgiIHRhcmdldD0nX2JsYW5rJz7ln7rmnKzkv6Hmga88L2E+PC9kaXY+PERpdiBjbGFzcz0nbWVudUl0ZW0nIHRpdGxlPSfkv67mlLnlr4bnoIEnPjxhIGhyZWY9ImRlZmF1bHQuYXNweD8mY29kZT0xMTAmJnVjdGw9TXlDb250cm9sXHBlcnNvbmFsX2NoYW5nZXB3ZC5hc2N4IiB0YXJnZXQ9J3BhcmVudCc+5L+u5pS55a+G56CBPC9hPjwvZGl2PjxEaXYgY2xhc3M9J21lbnVJdGVtJyB0aXRsZT0n5a2m57GN6aKE6K2mJz48YSBocmVmPSJqYXZhc2NyaXB0Ok9wZW5XaW5kb3coJ3hmel9ieXNoLmFzY3gmQWN0aW9uPVBlcnNvbmFsJyk7IiB0YXJnZXQ9Jyc+5a2m57GN6aKE6K2mPC9hPjwvZGl2PjxEaXYgY2xhc3M9J21lbnVJdGVtJyB0aXRsZT0n5paw55Sf5a+85biIJz48YSBocmVmPSJkZWZhdWx0LmFzcHg/JmNvZGU9MjE0JiZ1Y3RsPU15Q29udHJvbFxzdHVkZW50X215dGVhY2hlci5hc2N4IiB0YXJnZXQ9J3BhcmVudCc+5paw55Sf5a+85biIPC9hPjwvZGl2PjxEaXYgY2xhc3M9J21lbnVJdGVtJyB0aXRsZT0n6K++56iL5oiQ57upJz48YSBocmVmPSJqYXZhc2NyaXB0Ok9wZW5XaW5kb3coJ3hmel9jai5hc2N4JkFjdGlvbj1QZXJzb25hbCcpOyIgdGFyZ2V0PScnPuivvueoi+aIkOe7qTwvYT48L2Rpdj48RGl2IGNsYXNzPSdtZW51SXRlbScgdGl0bGU9J+aJi+acuuWPt+eggSc+PGEgaHJlZj0iLi5cTXlDb250cm9sXFBob25lLmFzcHgiIHRhcmdldD0nX2JsYW5rJz7miYvmnLrlj7fnoIE8L2E+PC9kaXY+PERpdiBjbGFzcz0nbWVudUl0ZW0nIHRpdGxlPSflrrbplb/nmbvlvZUnPjxhIGhyZWY9ImRlZmF1bHQuYXNweD8mY29kZT0yMDMmJnVjdGw9TXlDb250cm9sXEp6X3N0dWRlbnRzZXR0aW5nLmFzY3giIHRhcmdldD0ncGFyZW50Jz7lrrbplb/nmbvlvZU8L2E+PC9kaXY+PERpdiBjbGFzcz0nbWVudUl0ZW0nIHRpdGxlPSflj4zkuJPkuJrlj4zlrabkvY3or77nqIvlronmjpLooagnPjxhIGhyZWY9Ii4uXE15Q29udHJvbFxEZXp5X2tiLmFzcHgiIHRhcmdldD0nX2JsYW5rJz7lj4zkuJPkuJrlj4zlrabkvY3or77nqIvlronmjpLooag8L2E+PC9kaXY+PERpdiBjbGFzcz0nbWVudUl0ZW0nIHRpdGxlPSflrabkuaDkvZPpqownPjxhIGhyZWY9Ii4uXE15Q29udHJvbFxTdHVkZW50X015UmVwb3J0LmFzcHgiIHRhcmdldD0nX2JsYW5rJz7lrabkuaDkvZPpqow8L2E+PC9kaXY+PERpdiBjbGFzcz0nbWVudUl0ZW0nIHRpdGxlPSfnm7jniYfmm7TmjaLnlLPor7cnPjxhIGhyZWY9Ii4uXE15Q29udHJvbFxwaG90b19yZXBsYWNlLmFzcHgiIHRhcmdldD0nX2JsYW5rJz7nm7jniYfmm7TmjaLnlLPor7c8L2E+PC9kaXY+PC9kaXY+PGRpdiBpZD0nbWVudVBhcmVudF8xJyBjbGFzcz0nbWVudVBhcmVudCcgb25jbGljaz0nbWVudUdyb3VwU3dpdGNoKDEpOyc+5YWs5YWx5pyN5YqhPC9kaXY+PGRpdiBpZD0nbWVudUdyb3VwMScgY2xhc3M9J21lbnVHcm91cCc+PERpdiBjbGFzcz0nbWVudUl0ZW0nIHRpdGxlPSfln7nlhbvmlrnmoYgnPjxhIGhyZWY9ImRlZmF1bHQuYXNweD8mY29kZT0xMDQmJnVjdGw9TXlDb250cm9sXGFsbF9qeGpoLmFzY3giIHRhcmdldD0ncGFyZW50Jz7ln7nlhbvmlrnmoYg8L2E+PC9kaXY+PERpdiBjbGFzcz0nbWVudUl0ZW0nIHRpdGxlPSfor77nqIvkv6Hmga8nPjxhIGhyZWY9ImRlZmF1bHQuYXNweD8mY29kZT0xMTYmJnVjdGw9TXlDb250cm9sXGFsbF9jb3Vyc2VzZWFyY2guYXNjeCIgdGFyZ2V0PSdwYXJlbnQnPuivvueoi+S/oeaBrzwvYT48L2Rpdj48RGl2IGNsYXNzPSdtZW51SXRlbScgdGl0bGU9J+W8gOivvuWuieaOkic+PGEgaHJlZj0iLi5cTXlDb250cm9sXFB1YmxpY19La2FwLmFzcHgiIHRhcmdldD0nX2JsYW5rJz7lvIDor77lronmjpI8L2E+PC9kaXY+PERpdiBjbGFzcz0nbWVudUl0ZW0nIHRpdGxlPSflrabnlJ/kv6Hmga8nPjxhIGhyZWY9ImRlZmF1bHQuYXNweD8mY29kZT0xMTkmJnVjdGw9TXlDb250cm9sXGFsbF9zZWFyY2hzdHVkZW50LmFzY3giIHRhcmdldD0ncGFyZW50Jz7lrabnlJ/kv6Hmga88L2E+PC9kaXY+PERpdiBjbGFzcz0nbWVudUl0ZW0nIHRpdGxlPSfmlZnlt6Xkv6Hmga8nPjxhIGhyZWY9ImRlZmF1bHQuYXNweD8mY29kZT0xMjAmJnVjdGw9TXlDb250cm9sXGFsbF90ZWFjaGVyLmFzY3giIHRhcmdldD0ncGFyZW50Jz7mlZnlt6Xkv6Hmga88L2E+PC9kaXY+PERpdiBjbGFzcz0nbWVudUl0ZW0nIHRpdGxlPSfnn63kv6HlubPlj7AnPjxhIGhyZWY9ImRlZmF1bHQuYXNweD8mY29kZT0xMjImJnVjdGw9TXlDb250cm9sXG1haWxfbGlzdC5hc2N4IiB0YXJnZXQ9J3BhcmVudCc+55+t5L+h5bmz5Y+wPC9hPjwvZGl2PjxEaXYgY2xhc3M9J21lbnVJdGVtJyB0aXRsZT0n5pWZ5a6k5pWZ5a2m5a6J5o6SJz48YSBocmVmPSIuLlxNeUNvbnRyb2xccHVibGljX2NsYXNzcm9vbS5hc3B4IiB0YXJnZXQ9J19ibGFuayc+5pWZ5a6k5pWZ5a2m5a6J5o6SPC9hPjwvZGl2PjxEaXYgY2xhc3M9J21lbnVJdGVtJyB0aXRsZT0n5pyf5pyr5oiQ57up5p+l6K+iJz48YSBocmVmPSJqYXZhc2NyaXB0Ok9wZW5XaW5kb3coJ3hmel9UZXN0X2NqLmFzY3gnKTsiIHRhcmdldD0nJz7mnJ/mnKvmiJDnu6nmn6Xor6I8L2E+PC9kaXY+PERpdiBjbGFzcz0nbWVudUl0ZW0nIHRpdGxlPSfmnJ/mnKvmiJDnu6nmn6XliIbnlLPor7cnPjxhIGhyZWY9ImphdmFzY3JpcHQ6T3BlbldpbmRvdygnQ2ZzcV9TdHVkZW50LmFzY3gnKTsiIHRhcmdldD0nJz7mnJ/mnKvmiJDnu6nmn6XliIbnlLPor7c8L2E+PC9kaXY+PERpdiBjbGFzcz0nbWVudUl0ZW0nIHRpdGxlPSfooaXnvJPogIPogIPor5XlronmjpInPjxhIGhyZWY9ImphdmFzY3JpcHQ6T3BlbldpbmRvdygneGZ6X1Rlc3RfQkhLLmFzY3gnKTsiIHRhcmdldD0nJz7ooaXnvJPogIPogIPor5XlronmjpI8L2E+PC9kaXY+PERpdiBjbGFzcz0nbWVudUl0ZW0nIHRpdGxlPSflrabkuaDpl67nrZQnPjxhIGhyZWY9ImRlZmF1bHQuYXNweD8mY29kZT0xNTkmJnVjdGw9TXlDb250cm9sXEFsbF9TdHVkeV9MaXN0LmFzY3giIHRhcmdldD0ncGFyZW50Jz7lrabkuaDpl67nrZQ8L2E+PC9kaXY+PERpdiBjbGFzcz0nbWVudUl0ZW0nIHRpdGxlPSflj4zlrabkvY3or77nqIvmiJDnu6knPjxhIGhyZWY9ImphdmFzY3JpcHQ6T3BlbldpbmRvdygnZGV6eV9jai5hc2N4JkFjdGlvbj1QZXJzb25hbCcpOyIgdGFyZ2V0PScnPuWPjOWtpuS9jeivvueoi+aIkOe7qTwvYT48L2Rpdj48RGl2IGNsYXNzPSdtZW51SXRlbScgdGl0bGU9J+avleS4mueUn+WbvuWDj+mHh+mbhuS/oeaBr+agoeWvuSc+PGEgaHJlZj0iLi5cTXlDb250cm9sXFRYQ0pfSW5mb3JDaGVjay5hc3B4IiB0YXJnZXQ9J19ibGFuayc+5q+V5Lia55Sf5Zu+5YOP6YeH6ZuG5L+h5oGv5qCh5a+5PC9hPjwvZGl2PjwvZGl2PjxkaXYgaWQ9J21lbnVQYXJlbnRfMicgY2xhc3M9J21lbnVQYXJlbnQnIG9uY2xpY2s9J21lbnVHcm91cFN3aXRjaCgyKTsnPuaVmeWtpuS/oeaBrzwvZGl2PjxkaXYgaWQ9J21lbnVHcm91cDInIGNsYXNzPSdtZW51R3JvdXAnPjxEaXYgY2xhc3M9J21lbnVJdGVtJyB0aXRsZT0n572R5LiK6K+E5pWZJz48YSBocmVmPSJqYXZhc2NyaXB0Ok9wZW5XaW5kb3coJ3BqX3N0dWRlbnRfaW5kZXguYXNjeCcpOyIgdGFyZ2V0PScnPue9keS4iuivhOaVmTwvYT48L2Rpdj48RGl2IGNsYXNzPSdtZW51SXRlbScgdGl0bGU9J+aVmeWKoeaEj+ingeeusSc+PGEgaHJlZj0iLi4vRGVmYXVsdC5hc3B4P0FjdGlvbj1BZHZpc2UiIHRhcmdldD0nX2JsYW5rJz7mlZnliqHmhI/op4HnrrE8L2E+PC9kaXY+PERpdiBjbGFzcz0nbWVudUl0ZW0nIHRpdGxlPSfmnJ/mnKvogIPor5XlronmjpInPjxhIGhyZWY9ImRlZmF1bHQuYXNweD8mY29kZT0xMjkmJnVjdGw9TXlDb250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">
+
+<script type="text/javascript">
+<!--
+var theForm = document.forms['_ctl0'];
+if (!theForm) {
+    theForm = document._ctl0;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+// -->
+</script>
+
+
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWCwKR1YnFDgKKhuW9AQK81omaBQLT1fHVAgL3+/b1CAKW+/6hBgLK1NSWDwLp1NzCDAL7qoXGAQKaqo3yDwLm4Yoz09z4vs6gbic5294YtxuFCLuuzdA/qyHjmBz7bJA/A5o=">
+			<table border="0" align="center" width="100" bgcolor="#ffffff" cellpadding="0" cellspacing="0">
+				<tbody><tr>
+					<td height="30">
+						<div id="top">
+							<div id="date" align="center"><span id="lblDate">2020年7月30日 星期四&nbsp;</span></div>
+							<div id="top_mid"></div>
+							<div id="top_right">
+								<a href="https://jwc.jxnu.edu.cn/Jxzl_Index.htm" target="_blank">教学周历表</a> | <a onclick="javascript:window.external.AddFavorite(&#39;http://jwc.jxnu.edu.cn&#39;,&#39;江西师范大学教务在线&#39;);" href="https://jwc.jxnu.edu.cn/User/default.aspx?&amp;code=111&amp;&amp;uctl=MyControl\xfz_kcb.ascx&amp;MyAction=Personal#">加入收藏</a> | <a onclick="this.style.behavior=&#39;url(#default#homepage)&#39;;this.setHomePage
+(&#39;http://jwc.jxnu.edu.cn&#39;);" href="https://jwc.jxnu.edu.cn/User/default.aspx?&amp;code=111&amp;&amp;uctl=MyControl\xfz_kcb.ascx&amp;MyAction=Personal#">设为首页</a>
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td height="228">
+						<div id="banner"><img id="bannerimg" src="./江西师范大学 教务在线_files/banner4.jpg" style="display: inline;"></div>
+					</td>
+				</tr>
+				<tr>
+					<td height="40">
+						
+<div id="navigate">
+<ul id="nav">
+<li><a href="https://jwc.jxnu.edu.cn/default.aspx">首页</a></li>
+<li><a href="https://jwc.jxnu.edu.cn/Default.aspx?Action=Director&amp;Goto=Office&amp;Type=Student">学生之家</a></li>
+<li><a href="https://jwc.jxnu.edu.cn/Default.aspx?Action=Director&amp;Goto=Office&amp;Type=Teacher">教工之家</a></li>
+<li><a href="https://jwc.jxnu.edu.cn/Default.aspx?Action=Director&amp;Goto=Office&amp;Type=College">网上办公</a></li>
+<li><a href="https://jwc.jxnu.edu.cn/Default.aspx?Action=Director&amp;Goto=Office&amp;Type=JZ">家长园地</a>
+    <ul class="sub">
+        <li><a href="https://jwc.jxnu.edu.cn/Default.aspx?Action=Jzxz">登录须知</a></li>
+    </ul>
+</li>
+<li><a href="https://jwc.jxnu.edu.cn/User/default.aspx?&amp;code=111&amp;&amp;uctl=MyControl\xfz_kcb.ascx&amp;MyAction=Personal#">教学组织</a>
+    <ul class="sub">
+        <li><a href="https://jwc.jxnu.edu.cn/Default.aspx?Action=Jgzn">机构职能</a></li>
+        <li><a href="http://jwc.jxnu.edu.cn/nms/default.aspx" target="_blank">常态监控</a></li>
+        <li><a href="https://jwc.jxnu.edu.cn/Default.aspx?Action=Zypj">专业评估</a></li>
+        <li><a href="http://xk.jxnu.edu.cn/xmpj/" target="_blank">项目评审</a></li>
+	<li><a href="http://jxpj.jxnu.edu.cn/" target="_blank">审核评估</a></li>
+	<li><a href="http://udb.heec.edu.cn/passport/login.html" target="_blank">状态数据采集 v3.0</a></li>
+
+    </ul>
+</li>
+<li><a href="http://jwc.jxnu.edu.cn/portal/jxzd.aspx" target="_blank">教学制度</a></li>
+<li><a href="https://jwc.jxnu.edu.cn/User/default.aspx?&amp;code=111&amp;&amp;uctl=MyControl\xfz_kcb.ascx&amp;MyAction=Personal#">教学资源</a>
+    <ul class="sub">
+        <li><a href="http://jwczyk.jxnu.edu.cn:8080/" target="_blank">资&nbsp;&nbsp;源&nbsp;&nbsp;库</a></li>
+        <!--<li><a href="http://jwc.jxnu.edu.cn:8080/" target="_blank">精品课程</a></li>-->
+	<li><a href="http://jxnu.fanya.chaoxing.com/portal" target="_blank">网络教学平台</a></li>
+        <li><a href="https://jwc.jxnu.edu.cn/weike/default.aspx">正大微课</a></li>
+    </ul>
+</li>
+<li><a href="https://jwc.jxnu.edu.cn/User/default.aspx?&amp;code=111&amp;&amp;uctl=MyControl\xfz_kcb.ascx&amp;MyAction=Personal#" target="_blank">教学互动</a>
+    <ul class="sub">
+        <li><a href="https://jwc.jxnu.edu.cn/WsktNew/index.aspx" target="_blank">课程讨论</a></li>
+        <li><a href="https://jwc.jxnu.edu.cn/Default.aspx?Action=Msg">短信平台</a></li>
+        <li><a href="https://jwc.jxnu.edu.cn/Default.aspx?Action=Advise">建议意见</a></li>
+    </ul>
+</li>
+<li><a href="https://jwc.jxnu.edu.cn/Xxzx/zp.aspx">学习中心</a>
+    <ul class="sub">
+        <li><a href="http://xk.jxnu.edu.cn/" target="_blank">选&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;课</a></li>
+        <li><a href="https://jwc.jxnu.edu.cn/Default.aspx?Action=Director&amp;Goto=Pj">评&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;教</a></li>
+        <li><a href="https://jwc.jxnu.edu.cn/Default.aspx?Action=rxdh">入学导航</a></li>
+        <li><a href="https://jwc.jxnu.edu.cn//xxzx/lct.aspx" "="">辅&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;导</a></li>
+    </ul>
+</li>
+</ul>
+</div>
+					</td>
+				</tr>
+				<tr>
+					<td height="35" bgcolor="#ffffff">
+						<div id="currentPosition"><div id="currentPositionLeft"><span id="lblTitle">当前位置：课程表</span></div>
+							<div id="currentPositionRight">
+								<span id="lblUserInfor">   欢迎您，(201825902041,Student) 黄宇洪</span><a id="lbtExit" href="javascript:__doPostBack(&#39;lbtExit&#39;,&#39;&#39;)" style="text-decoration:underline;">
+                       点击这里退出
+				      </a></div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td height="100%" align="center" bgcolor="#ffffff">
+						<div id="contentLeft">
+<script type="text/javascript">
+function menuGroupSwitch(groupId)
+{	
+	var obj=document.getElementById("menuGroup" + groupId)	
+	if(obj.style.display=="none")
+	{
+		obj.style.display="block";
+		$("#menuParent_" + groupId).attr("class","menuParent");
+	}  
+	else
+	{
+		obj.style.display="none";
+		$("#menuParent_" + groupId).attr("class","menuParentOut");		
+	}
+}
+</script>
+<div class="MyPhoto">
+	<div class="imgbox">
+		<img id="UserMenuNew1_MyPhoto" src="./江西师范大学 教务在线_files/All_PhotoShow.aspx" border="0" style="width:120px;">
+	</div>
+</div>
+<div id="menuParent_0" class="menuParent" onclick="menuGroupSwitch(0);">我的信息</div><div id="menuGroup0" class="menuGroup"><div class="menuItemOn" title="课程表"><a href="https://jwc.jxnu.edu.cn/User/default.aspx?&amp;code=111&amp;&amp;uctl=MyControl\xfz_kcb.ascx&amp;MyAction=Personal" target="parent">课程表</a></div><div class="menuItem" title="基本信息"><a href="https://jwc.jxnu.edu.cn/MyControl/Student_InforCheck.aspx" target="_blank">基本信息</a></div><div class="menuItem" title="修改密码"><a href="https://jwc.jxnu.edu.cn/User/default.aspx?&amp;code=110&amp;&amp;uctl=MyControl\personal_changepwd.ascx" target="parent">修改密码</a></div><div class="menuItem" title="学籍预警"><a href="javascript:OpenWindow(&#39;xfz_bysh.ascx&amp;Action=Personal&#39;);" target="">学籍预警</a></div><div class="menuItem" title="新生导师"><a href="https://jwc.jxnu.edu.cn/User/default.aspx?&amp;code=214&amp;&amp;uctl=MyControl\student_myteacher.ascx" target="parent">新生导师</a></div><div class="menuItem" title="课程成绩"><a href="javascript:OpenWindow(&#39;xfz_cj.ascx&amp;Action=Personal&#39;);" target="">课程成绩</a></div><div class="menuItem" title="手机号码"><a href="https://jwc.jxnu.edu.cn/MyControl/Phone.aspx" target="_blank">手机号码</a></div><div class="menuItem" title="家长登录"><a href="https://jwc.jxnu.edu.cn/User/default.aspx?&amp;code=203&amp;&amp;uctl=MyControl\Jz_studentsetting.ascx" target="parent">家长登录</a></div><div class="menuItem" title="双专业双学位课程安排表"><a href="https://jwc.jxnu.edu.cn/MyControl/Dezy_kb.aspx" target="_blank">双专业双学位课程安排表</a></div><div class="menuItem" title="学习体验"><a href="https://jwc.jxnu.edu.cn/MyControl/Student_MyReport.aspx" target="_blank">学习体验</a></div><div class="menuItem" title="相片更换申请"><a href="https://jwc.jxnu.edu.cn/MyControl/photo_replace.aspx" target="_blank">相片更换申请</a></div></div><div id="menuParent_1" class="menuParent" onclick="menuGroupSwitch(1);">公共服务</div><div id="menuGroup1" class="menuGroup"><div class="menuItem" title="培养方案"><a href="https://jwc.jxnu.edu.cn/User/default.aspx?&amp;code=104&amp;&amp;uctl=MyControl\all_jxjh.ascx" target="parent">培养方案</a></div><div class="menuItem" title="课程信息"><a href="https://jwc.jxnu.edu.cn/User/default.aspx?&amp;code=116&amp;&amp;uctl=MyControl\all_coursesearch.ascx" target="parent">课程信息</a></div><div class="menuItem" title="开课安排"><a href="https://jwc.jxnu.edu.cn/MyControl/Public_Kkap.aspx" target="_blank">开课安排</a></div><div class="menuItem" title="学生信息"><a href="https://jwc.jxnu.edu.cn/User/default.aspx?&amp;code=119&amp;&amp;uctl=MyControl\all_searchstudent.ascx" target="parent">学生信息</a></div><div class="menuItem" title="教工信息"><a href="https://jwc.jxnu.edu.cn/User/default.aspx?&amp;code=120&amp;&amp;uctl=MyControl\all_teacher.ascx" target="parent">教工信息</a></div><div class="menuItem" title="短信平台"><a href="https://jwc.jxnu.edu.cn/User/default.aspx?&amp;code=122&amp;&amp;uctl=MyControl\mail_list.ascx" target="parent">短信平台</a></div><div class="menuItem" title="教室教学安排"><a href="https://jwc.jxnu.edu.cn/MyControl/public_classroom.aspx" target="_blank">教室教学安排</a></div><div class="menuItem" title="期末成绩查询"><a href="javascript:OpenWindow(&#39;xfz_Test_cj.ascx&#39;);" target="">期末成绩查询</a></div><div class="menuItem" title="期末成绩查分申请"><a href="javascript:OpenWindow(&#39;Cfsq_Student.ascx&#39;);" target="">期末成绩查分申请</a></div><div class="menuItem" title="补缓考考试安排"><a href="javascript:OpenWindow(&#39;xfz_Test_BHK.ascx&#39;);" target="">补缓考考试安排</a></div><div class="menuItem" title="学习问答"><a href="https://jwc.jxnu.edu.cn/User/default.aspx?&amp;code=159&amp;&amp;uctl=MyControl\All_Study_List.ascx" target="parent">学习问答</a></div><div class="menuItem" title="双学位课程成绩"><a href="javascript:OpenWindow(&#39;dezy_cj.ascx&amp;Action=Personal&#39;);" target="">双学位课程成绩</a></div><div class="menuItem" title="毕业生图像采集信息校对"><a href="https://jwc.jxnu.edu.cn/MyControl/TXCJ_InforCheck.aspx" target="_blank">毕业生图像采集信息校对</a></div></div><div id="menuParent_2" class="menuParent" onclick="menuGroupSwitch(2);">教学信息</div><div id="menuGroup2" class="menuGroup"><div class="menuItem" title="网上评教"><a href="javascript:OpenWindow(&#39;pj_student_index.ascx&#39;);" target="">网上评教</a></div><div class="menuItem" title="教务意见箱"><a href="https://jwc.jxnu.edu.cn/Default.aspx?Action=Advise" target="_blank">教务意见箱</a></div><div class="menuItem" title="期末考试安排"><a href="https://jwc.jxnu.edu.cn/User/default.aspx?&amp;code=129&amp;&amp;uctl=MyControl\xfz_test_schedule.ascx" target="parent">期末考试安排</a></div><div class="menuItem" title="辅修双专业双学位报名"><a href="javascript:OpenWindow(&#39;Dezy_bm.ascx&#39;);" target="">辅修双专业双学位报名</a></div><div class="menuItem" title="2019级学生转专业(专业调整)报名"><a href="https://jwc.jxnu.edu.cn/MyControl/zzy_student_sq.aspx" target="_blank">2019级学生转专业(专业调整)报名</a></div><div class="menuItem" title="毕业生毕业、学位申请"><a href="https://jwc.jxnu.edu.cn/MyControl/ByxwSq_student.aspx" target="_blank">毕业生毕业、学位申请</a></div></div>
+<div></div>
+<font face="宋体"></font>
+</div>
+						<div id="contentHolder" style="height: 1733px;">
+<div align="center"><span id="_ctl1_lblTitle" style="font-family:楷体_GB2312;font-size:Large;font-weight:bold;width:591px;">江西师范大学学生课表</span><font face="宋体"><br>
+	</font>
+	<span id="_ctl1_lblUserInfor" style="font-size:Larger;">班级名称：<u>18级法学1班</u>　　学号：<u>201825902041</u>　　姓名：<u>黄宇洪</u></span><font face="宋体"><br>
+	</font>
+	<select name="_ctl1:ddlSterm" id="_ctl1_ddlSterm">
+	<option value="2020/9/1 0:00:00">20-21第1学期</option>
+	<option value="2020/3/1 0:00:00">19-20第2学期</option>
+	<option value="2019/9/1 0:00:00">19-20第1学期</option>
+	<option value="2019/3/1 0:00:00">18-19第2学期</option>
+	<option value="2018/9/1 0:00:00">18-19第1学期</option>
+	<option value="2018/3/1 0:00:00">17-18第2学期</option>
+	<option value="2017/9/1 0:00:00">17-18第1学期</option>
+	<option value="2017/3/1 0:00:00">16-17第2学期</option>
+
+</select><input type="submit" name="_ctl1:btnSearch" value="确定" id="_ctl1_btnSearch">
+	<div id="_ctl1_NewKcb">
+	
+		<table border="1" cellspacing="1" bordercolorlight="#000000" bordercolordark="#ffffff" cellpadding="0" width="600" align="center">
+			<tbody>
+			<tr>
+				<td bgcolor="#00ccff" height="20" width="3%">
+					<div align="center">&nbsp;</div>
+				</td>
+				<td bgcolor="#00ccff" width="3%">
+					<div align="center">&nbsp;</div>
+				</td>
+				<td bgcolor="#00ccff" width="13%">
+					<div align="center"><font face="Arial, Helvetica, sans-serif">星期一</font></div>
+				</td>
+				<td bgcolor="#00ccff" width="13%">
+					<div align="center"><font face="Arial, Helvetica, sans-serif">星期二</font></div>
+				</td>
+				<td bgcolor="#00ccff" width="14%">
+					<div align="center"><font face="Arial, Helvetica, sans-serif">星期三</font></div>
+				</td>
+				<td bgcolor="#00ccff" width="14%">
+					<div align="center"><font face="Arial, Helvetica, sans-serif">星期四</font></div>
+				</td>
+				<td bgcolor="#00ccff" width="15%">
+					<div align="center"><font face="Arial, Helvetica, sans-serif">星期五</font></div>
+				</td>
+				<td bgcolor="#00ccff" width="13%">
+					<div align="center"><font face="Arial, Helvetica, sans-serif">星期六</font></div>
+				</td>
+				<td bgcolor="#00ccff" width="12%">
+					<div align="center"><font face="Arial, Helvetica, sans-serif">星期日</font></div>
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#00ccff" rowspan="4" width="3%">上午</td>
+				<td bgcolor="#cccccc" height="73">
+					<div align="center">1<br>
+						2</div>
+				</td>
+				<td bgcolor="#66FFCC">
+				<div align="center">法律社会学<br>( W3201 )<br>王裕根#1班                      &nbsp;</div>
+				</td>
+				<td bgcolor="#66FFCC">
+					<div align="center">证据法（2分）<br>( W4506 )<br>.周成勇#2班                     &nbsp;</div>
+				</td>
+				<td bgcolor="">
+					<div align="center">&nbsp;</div>
+				</td>
+				<td bgcolor="">
+					<div align="center">&nbsp;</div>
+				</td>
+				<td bgcolor="">
+					<div align="center">&nbsp;</div>
+				</td>
+				<td bgcolor="">
+					<div align="center">&nbsp;</div>
+				</td>
+				<td bgcolor="">
+					<div align="center">&nbsp;</div>
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#cccccc" height="62">
+					<div align="center">3</div>
+				</td>
+				<td bgcolor="#66FFCC">
+					<div align="center">商法学<br>( W6105 )<br>18级法学1班                             &nbsp;</div>
+				</td>
+				<td bgcolor="">
+					<div align="center">&nbsp;</div>
+				</td>
+				<td bgcolor="#66FFCC">
+					<div align="center">国际私法学<br>( W3405 )<br>18级法学1班                             &nbsp;</div>
+				</td>
+				<td bgcolor="">
+					<div align="center">&nbsp;</div>
+				</td>
+				<td bgcolor="#66FFCC">
+					<div align="center">劳动和社会保障法（3分）<br>( W6105 )<br>18级法学1班                             &nbsp;</div>
+				</td>
+				<td bgcolor="">
+					<div align="center">&nbsp;</div>
+				</td>
+				<td bgcolor="">
+					<div align="center">&nbsp;</div>
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#cccccc" height="59">
+					<div align="center">4</div>
+				</td>
+				<td bgcolor="#66FFCC">
+					<div align="center">商法学<br>( W6105 )<br>18级法学1班                             &nbsp;</div>
+				</td>
+				<td bgcolor="">
+					<div align="center">&nbsp;</div>
+				</td>
+				<td bgcolor="#66FFCC">
+					<div align="center">国际私法学<br>( W3405 )<br>18级法学1班                             &nbsp;</div>
+				</td>
+				<td bgcolor="#66FFCC">
+					<div align="center">法律文书<br>( W5304 )<br>.李晓静#2班                     &nbsp;</div>
+				</td>
+				<td bgcolor="#66FFCC">
+					<div align="center">劳动和社会保障法（3分）<br>( W6105 )<br>18级法学1班                             &nbsp;</div>
+				</td>
+				<td bgcolor="">
+					<div align="center">&nbsp;</div>
+				</td>
+				<td bgcolor="">
+					<div align="center">&nbsp;</div>
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#cccccc" height="67">
+					<div align="center">5</div>
+				</td>
+				<td bgcolor="#66FFCC">
+					<div align="center">商法学<br>( W6105 )<br>18级法学1班                             &nbsp;</div>
+				</td>
+				<td bgcolor="">
+					<div align="center">&nbsp;</div>
+				</td>
+				<td bgcolor="#66FFCC">
+					<div align="center">国际私法学<br>( W3405 )<br>18级法学1班                             &nbsp;</div>
+				</td>
+				<td bgcolor="#66FFCC">
+					<div align="center">法律文书<br>( W5304 )<br>.李晓静#2班                     &nbsp;</div>
+				</td>
+				<td bgcolor="#66FFCC">
+					<div align="center">劳动和社会保障法（3分）<br>( W6105 )<br>18级法学1班                             &nbsp;</div>
+				</td>
+				<td bgcolor="">
+					<div align="center">&nbsp;</div>
+				</td>
+				<td bgcolor="">
+					<div align="center">&nbsp;</div>
+				</td>
+			</tr>
+			<tr bgcolor="#00ccff">
+				<td height="20" colspan="9">
+					<div align="center"><font face="Arial, Helvetica, sans-serif">中 午</font></div>
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#00ccff" rowspan="2">
+					<div align="center">下午</div>
+				</td>
+				<td bgcolor="#cccccc" height="72">
+					<div align="center">6<br>
+						7</div>
+				</td>
+				<td bgcolor="#66FFCC">
+					<div align="center">知识产权法<br>( W4203 )<br>18级法学1班                             &nbsp;</div>
+				</td>
+				<td bgcolor="">
+					<div align="center">&nbsp;</div>
+				</td>
+				<td bgcolor="">
+					<div align="center">&nbsp;</div>
+				</td>
+				<td bgcolor="">
+					<div align="center">&nbsp;</div>
+				</td>
+				<td bgcolor="#66FFCC">
+					<div align="center">习近平新时代中国特色社会主义思想概论<br>( W4509 )<br>合班刘超.1班                            &nbsp;</div>
+				</td>
+				<td bgcolor="">
+					<div align="center">&nbsp;</div>
+				</td>
+				<td bgcolor="">
+					<div align="center">&nbsp;</div>
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#cccccc" height="73">
+					<div align="center">8<br>
+						9</div>
+				</td>
+				<td bgcolor="#66FFCC">
+					<div align="center">知识产权法<br>( W4203 )<br>18级法学1班                             &nbsp;</div>
+				</td>
+				<td bgcolor="">
+					<div align="center">&nbsp;</div>
+				</td>
+				<td bgcolor="">
+					<div align="center">&nbsp;</div>
+				</td>
+				<td bgcolor="">
+					<div align="center">&nbsp;</div>
+				</td>
+				<td bgcolor="">
+					<div align="center">&nbsp;</div>
+				</td>
+				<td bgcolor="">
+					<div align="center">&nbsp;</div>
+				</td>
+				<td bgcolor="">
+					<div align="center">&nbsp;</div>
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#00ccff" height="70">
+					<div align="center">晚上</div>
+				</td>
+				<td bgcolor="#cccccc">
+					<div align="center">晚<br>
+						上
+					</div>
+				</td>
+				<td bgcolor="">
+					<div align="center">&nbsp;</div>
+				</td>
+				<td bgcolor="">
+					<div align="center">&nbsp;</div>
+				</td>
+				<td bgcolor="">
+					<div align="center">&nbsp;</div>
+				</td>
+				<td bgcolor="">
+					<div align="center">&nbsp;</div>
+				</td>
+				<td bgcolor="">
+					<div align="center">&nbsp;</div>
+				</td>
+				<td bgcolor="">
+					<div align="center">&nbsp;</div>
+				</td>
+				<td bgcolor="">
+					<div align="center">&nbsp;</div>
+				</td>
+			</tr>
+			<tr>
+				<td bgcolor="#00ccff" height="20">
+					<div align="center">&nbsp;</div>
+				</td>
+				<td bgcolor="#00ccff" height="18" colspan="8">
+					<div align="center"><font color="#ff0000">课表说明：底色为深色部分表示的是有冲突的课程！</font></div>
+				</td>
+			</tr>
+		</tbody></table>
+	
+</div><table cellspacing="0" cellpadding="4" rules="all" bordercolor="#CC9966" border="1" id="_ctl1_dgStudentLesson" style="background-color:White;border-color:#CC9966;border-width:1px;border-style:None;width:600px;border-collapse:collapse;">
+	<tbody><tr style="color:#FFFFCC;background-color:#990000;font-weight:bold;">
+		<td>课程号</td><td>课程名称标识</td><td>班级名称</td><td>任课老师</td><td>班级同学</td><td>课程讨论区</td><td>评价老师</td>
+	</tr><tr style="color:#330099;background-color:White;">
+		<td>028019    </td><td>习近平新时代中国特色社会主义思想概论</td><td>合班刘超.1班                            </td><td>刘超</td><td>
+					<a href="javascript:OpenWindow(&#39;Xfz_Class_student.ascx&amp;bjh=090076H1&amp;kch=028019&amp;xq=2020/9/1&#39;);">查看名单</a>
+				</td><td>
+					<a target="_blank" href="https://jwc.jxnu.edu.cn/wsktNew/CourseSetting.aspx?bjh=090076H1&amp;kch=028019&amp;xq=2020/9/1">课程讨论区</a>
+				</td><td>
+					<a target="_blank" href="https://jwc.jxnu.edu.cn/MyControl/PJ_Yypj.aspx?kch=028019&amp;xq=2020/9/1">进入</a>
+				</td>
+	</tr><tr style="color:#330099;background-color:White;">
+		<td>259152    </td><td>法律文书</td><td>拆班教工.李晓静#2班                     </td><td>李晓静</td><td>
+					<a href="javascript:OpenWindow(&#39;Xfz_Class_student.ascx&amp;bjh=000608$2&amp;kch=259152&amp;xq=2020/9/1&#39;);">查看名单</a>
+				</td><td>
+					<a target="_blank" href="https://jwc.jxnu.edu.cn/wsktNew/CourseSetting.aspx?bjh=000608$2&amp;kch=259152&amp;xq=2020/9/1">课程讨论区</a>
+				</td><td>
+					<a target="_blank" href="https://jwc.jxnu.edu.cn/MyControl/PJ_Yypj.aspx?kch=259152&amp;xq=2020/9/1">进入</a>
+				</td>
+	</tr><tr style="color:#330099;background-color:White;">
+		<td>259167    </td><td>劳动和社会保障法（3分）</td><td>18级法学1班                             </td><td>吴义太</td><td>
+					<a href="javascript:OpenWindow(&#39;Xfz_Class_student.ascx&amp;bjh=24983091&amp;kch=259167&amp;xq=2020/9/1&#39;);">查看名单</a>
+				</td><td>
+					<a target="_blank" href="https://jwc.jxnu.edu.cn/wsktNew/CourseSetting.aspx?bjh=24983091&amp;kch=259167&amp;xq=2020/9/1">课程讨论区</a>
+				</td><td>
+					<a target="_blank" href="https://jwc.jxnu.edu.cn/MyControl/PJ_Yypj.aspx?kch=259167&amp;xq=2020/9/1">进入</a>
+				</td>
+	</tr><tr style="color:#330099;background-color:White;">
+		<td>259213    </td><td>商法学</td><td>18级法学1班                             </td><td>王卫红</td><td>
+					<a href="javascript:OpenWindow(&#39;Xfz_Class_student.ascx&amp;bjh=24983091&amp;kch=259213&amp;xq=2020/9/1&#39;);">查看名单</a>
+				</td><td>
+					<a target="_blank" href="https://jwc.jxnu.edu.cn/wsktNew/CourseSetting.aspx?bjh=24983091&amp;kch=259213&amp;xq=2020/9/1">课程讨论区</a>
+				</td><td>
+					<a target="_blank" href="https://jwc.jxnu.edu.cn/MyControl/PJ_Yypj.aspx?kch=259213&amp;xq=2020/9/1">进入</a>
+				</td>
+	</tr><tr style="color:#330099;background-color:White;">
+		<td>259215    </td><td>知识产权法</td><td>18级法学1班                             </td><td>熊时升</td><td>
+					<a href="javascript:OpenWindow(&#39;Xfz_Class_student.ascx&amp;bjh=24983091&amp;kch=259215&amp;xq=2020/9/1&#39;);">查看名单</a>
+				</td><td>
+					<a target="_blank" href="https://jwc.jxnu.edu.cn/wsktNew/CourseSetting.aspx?bjh=24983091&amp;kch=259215&amp;xq=2020/9/1">课程讨论区</a>
+				</td><td>
+					<a target="_blank" href="https://jwc.jxnu.edu.cn/MyControl/PJ_Yypj.aspx?kch=259215&amp;xq=2020/9/1">进入</a>
+				</td>
+	</tr><tr style="color:#330099;background-color:White;">
+		<td>259216    </td><td>国际私法学</td><td>18级法学1班                             </td><td>洪萍</td><td>
+					<a href="javascript:OpenWindow(&#39;Xfz_Class_student.ascx&amp;bjh=24983091&amp;kch=259216&amp;xq=2020/9/1&#39;);">查看名单</a>
+				</td><td>
+					<a target="_blank" href="https://jwc.jxnu.edu.cn/wsktNew/CourseSetting.aspx?bjh=24983091&amp;kch=259216&amp;xq=2020/9/1">课程讨论区</a>
+				</td><td>
+					<a target="_blank" href="https://jwc.jxnu.edu.cn/MyControl/PJ_Yypj.aspx?kch=259216&amp;xq=2020/9/1">进入</a>
+				</td>
+	</tr><tr style="color:#330099;background-color:White;">
+		<td>259354    </td><td>法律社会学</td><td>拆班教工王裕根#1班                      </td><td>王裕根</td><td>
+					<a href="javascript:OpenWindow(&#39;Xfz_Class_student.ascx&amp;bjh=005333$1&amp;kch=259354&amp;xq=2020/9/1&#39;);">查看名单</a>
+				</td><td>
+					<a target="_blank" href="https://jwc.jxnu.edu.cn/wsktNew/CourseSetting.aspx?bjh=005333$1&amp;kch=259354&amp;xq=2020/9/1">课程讨论区</a>
+				</td><td>
+					<a target="_blank" href="https://jwc.jxnu.edu.cn/MyControl/PJ_Yypj.aspx?kch=259354&amp;xq=2020/9/1">进入</a>
+				</td>
+	</tr><tr style="color:#330099;background-color:White;">
+		<td>259468    </td><td>证据法（2分）</td><td>拆班教工.周成勇#2班                     </td><td>周成勇</td><td>
+					<a href="javascript:OpenWindow(&#39;Xfz_Class_student.ascx&amp;bjh=002371$2&amp;kch=259468&amp;xq=2020/9/1&#39;);">查看名单</a>
+				</td><td>
+					<a target="_blank" href="https://jwc.jxnu.edu.cn/wsktNew/CourseSetting.aspx?bjh=002371$2&amp;kch=259468&amp;xq=2020/9/1">课程讨论区</a>
+				</td><td>
+					<a target="_blank" href="https://jwc.jxnu.edu.cn/MyControl/PJ_Yypj.aspx?kch=259468&amp;xq=2020/9/1">进入</a>
+				</td>
+	</tr>
+</tbody></table>
+	
+</div>
+</div>
+					</td>
+				</tr>
+				<tr>
+					<td align="center" height="100" bgcolor="#ffffff">
+						<div id="footer">地址：中国·南昌市紫阳大道99号 (瑶湖校区) 江西师范大学教务处<br>
+							邮编：330022 电话：0791-88120270 传真：0791-88120270<br>
+						</div>
+					</td>
+				</tr>
+			</tbody></table>
+		</form>
+
+		<script src="./test.js" type="text/javascript"></script>
+</body></html>

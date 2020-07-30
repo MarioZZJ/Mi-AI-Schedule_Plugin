@@ -1,0 +1,74 @@
+/* ================================================================ 
+This copyright notice must be kept untouched in the stylesheet at 
+all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.stunicholls.com/menu/pro_drop_1.html
+Copyright (c) 2005-2007 Stu Nicholls. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+
+.preload1 {background: url(blank_over.gif);}
+.preload2 {background: url(blank_overa.gif);}
+
+#nav {padding:0; margin:0; list-style:none; height:40px; background:#fff; position:relative; z-index:500; font-family:arial, verdana, sans-serif;}
+/* Default list styling */
+
+#nav li:hover {position:relative; z-index:200;}
+
+/* keep the 'next' level invisible by placing it off screen. */
+#nav ul, 
+#nav li:hover ul ul,
+#nav li:hover ul li:hover ul ul,
+#nav li:hover ul li:hover ul li:hover ul ul,
+#nav li:hover ul li:hover ul li:hover ul li:hover ul ul
+{position:absolute; left:-9999px; top:-9999px; width:0; height:0; margin:0; padding:0; list-style:none;}
+
+
+#nav li:hover ul.sub
+{left:0px; top:30px; background: #ffffff; border:1px solid #D4d4d4; white-space:nowrap; width:140px; height:auto; z-index:300;}
+#nav li ul.sub li a
+{display:block; height:30px;font-size:14px; position:relative; float:left; width:140px; font-weight:normal;line-height:30px;border-bottom:1px solid #FFFFFF;}
+
+#nav li:hover ul.sub li
+{display:block; height:30px; position:relative; float:left; width:140px; font-weight:normal;line-height:30px;}
+
+#nav li:hover ul.sub li a
+{display:block; font-size:14px; height:30px; width:140px; line-height:30px; text-align:center; color:#FFF; text-decoration:none;line-height:30px;border-bottom:1px solid #FFFFFF;}
+#nav li:hover ul.sub li a:hover 
+{background:#3a93d2; color:#fff;}
+
+#nav li:hover ul li:hover ul,
+#nav li:hover ul li:hover ul li:hover ul,
+#nav li:hover ul li:hover ul li:hover ul li:hover ul,
+#nav li:hover ul li:hover ul li:hover ul li:hover ul li:hover ul
+{left:90px; top:-4px; background: #fff; padding:3px; border:1px solid #3a93d2; white-space:nowrap; width:90px; z-index:400; height:auto;}
+
+
+
+#navBar {padding:0; margin:0; list-style:none; height:40px; background:#fff; position:relative; z-index:500; font-family:arial, verdana, sans-serif;}
+/* Default list styling */
+
+#navBar li:hover {position:relative; z-index:200;}
+
+/* keep the 'next' level invisible by placing it off screen. */
+#navBar ul, 
+#navBar li:hover ul ul,
+#navBar li:hover ul li:hover ul ul,
+#navBar li:hover ul li:hover ul li:hover ul ul,
+#navBar li:hover ul li:hover ul li:hover ul li:hover ul ul
+{position:absolute; left:-9999px; top:-9999px; width:0; height:0; margin:0; padding:0; list-style:none;}
+
+#navBar li:hover ul.sub
+{left:20px; top:20px; background: #ffffff; border:2px solid #D4d4d4; white-space:nowrap; width:200px; height:auto; z-index:300;}
+
+#navBar li:hover ul.sub li
+{display:block; height:30px; position:relative; float:left; width:50px;}
+
+#navBar li .short_item  ul.sub li a,
+#navBar li:hover .short_item ul.sub li a
+{display:block; font-size:12px; height:30px; width:50px; line-height:30px; text-align:center; color:#000; text-decoration:none;line-height:30px;border:1px solid #d4d4d4;text-align:center;float:left;overflow:hidden;}
+
+#navBar li:hover .short_item ul.sub  li a:hover 
+{background:#3a93d2; color:#000;border:1px solid #d4d4d4;}
