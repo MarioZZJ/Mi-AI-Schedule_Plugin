@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c0b46b4-1059-4ccb-b0fd-8f228b1c3c95" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JXNU/scheduleHtmlParser.js" beforeDir="false" afterPath="$PROJECT_DIR$/JXNU/scheduleHtmlParser.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JXNU/scheduleHtmlProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/JXNU/scheduleHtmlProvider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JXNU/test/江西师范大学 教务在线.html" beforeDir="false" afterPath="$PROJECT_DIR$/JXNU/test/江西师范大学 教务在线.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -19,6 +28,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -41,6 +51,9 @@
       <workItem from="1596376725175" duration="394000" />
       <workItem from="1596377155483" duration="29000" />
       <workItem from="1596377185634" duration="6778000" />
+      <workItem from="1596423186380" duration="680000" />
+      <workItem from="1596466680623" duration="2166000" />
+      <workItem from="1596501678454" duration="26167000" />
     </task>
     <servers />
   </component>
@@ -56,5 +69,17 @@
       <screen x="549" y="-768" width="1366" height="728" />
     </state>
     <state x="733" y="-760" key="SettingsEditor/0.0.1536.920/549.-768.1366.728@549.-768.1366.728" timestamp="1596378174152" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/JXNU/test/江西师范大学 教务在线.html</url>
+          <line>85</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
